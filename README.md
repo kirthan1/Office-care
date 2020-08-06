@@ -4,12 +4,14 @@ LiquidCrystal library and Servo library are usually pre-installed in Arduino IDE
 
 1)LiquidCrystal library:
 This library allows an Arduino board to control LiquidCrystal displays (LCDs) based on the Hitachi HD44780 (or a compatible) chipset, which is found on most text-based LCDs.
+
 Syntax: #include <LiquidCrystal.h>
 
 For more information about this library please visit us at http://www.arduino.cc/en/Reference/LiquidCrystal
 
 2)Servo library:
 This library allows an Arduino board to control RC (hobby) servo motors.
+
 Syntax: #include <Servo.h>
 
 For more information about this library please visit us at http://www.arduino.cc/en/Reference/Servo
