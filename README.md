@@ -1,19 +1,16 @@
 # Office-care
 Guidelines to install the library packages:
+LiquidCrystal library and Servo library are usually pre-installed in Arduino IDE.
 
 1)LiquidCrystal library:
 This library allows an Arduino board to control LiquidCrystal displays (LCDs) based on the Hitachi HD44780 (or a compatible) chipset, which is found on most text-based LCDs.
-
-To use this library
-#include <LiquidCrystal.h>
+Syntax: #include <LiquidCrystal.h>
 
 For more information about this library please visit us at http://www.arduino.cc/en/Reference/LiquidCrystal
 
-2)Servo library
+2)Servo library:
 This library allows an Arduino board to control RC (hobby) servo motors.
-
-To use this library
-#include <Servo.h>
+Syntax: #include <Servo.h>
 
 For more information about this library please visit us at http://www.arduino.cc/en/Reference/Servo
 
@@ -24,7 +21,6 @@ Then the Library Manager will open and you will find a list of libraries that ar
 Sometimes only one version of the library is available. If the version selection menu does not appear, don't worry.
 Finally click on install and wait for the IDE to install the new library. Once it has finished, an Installed tag should appear next to the installed library.
  You can close the library manager.
-
 
 For further detailed information on installation of additional arduino libraries, please visit https://www.arduino.cc/en/guide/libraries
 
